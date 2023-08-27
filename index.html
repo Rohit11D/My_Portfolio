@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediacss.css">
+</head>
+<body>
+    <!-- <div class="myport"> -->
+    <nav id="desktop-nav">
+        <div class="logo">Rohit Dangi</div>
+        <div >
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rohit Dangi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </div>
+        <div class="menu-links">
+            <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <div>
+        <i class="fa-solid fa-circle-arrow-up fa-2x top-arrow" onclick="location.href='#desktop-nav',location.href='#hamburger-nav'" on></i>
+        </div>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img class="myImage" src="assests/my_photo.jpg" alt="Rohit profile picture" srcset="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <h1 class="title">Rohit Dangi</h1>
+            <p class="section_text_p2">frontend developer</p>
+            <div class="btn_container">
+                <button class="btn btn_color-1" onclick="window.open('assests/my_resume.pdf')" >
+                Download CV</button>
+                <button class="btn btn_color-2" onclick="location.href='#contact'">
+                    Contact Info</button>
+    
+            </div>
+            <div id="social_container">
+                <i class="fa-brands fa-linkedin fa-2x fa-border-radius icon "  onclick="location.href='https://www.linkedin.com/in/rohit-dangi-138677241'"></i>
+                <i class="fa-brands fa-github fa-2x icon"  onclick="location.href='https://github.com/Rohit11D/'"></i>
+                <i class="fa-solid fa-envelope fa-2x icon" ></i>
+
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="section_text_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section_pic-container">
+            <img src="assests/my_photo2.jpg" alt="My picture" class="about_pic">
+        </div>
+        <div class="about_details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <i class="fa-sharp fa-solid fa-award fa-2x"></i>
+                    <h3>Experience</h3>
+                    <p>2-3 <br>frontend projects</p>
+                </div>
+                <div class="details-container">
+                    <i class="fa-solid fa-book-open-reader fa-2x"></i>
+                    <h3>Education</h3>
+                    <p>Persuing B.Tech in Computer Science and Engineering <br>National Institute of Technology Agartala,India</p>
+                </div>
+
+            </div>
+            <div class="text-container">
+                <p>Date of Birth: 11.05.2002 
+                    Languages Known: English, Hindi, Rajasthani
+                    Hobbies: Painting, Swimming, Reading, Gardening.
+                    </p>
+            </div>
+        </div>
+        <div>
+            <i class="fa-solid fa-angles-up icon-arrow-up" onclick="location.href='#desktop-nav'"></i>
+            <i class="fa-solid fa-angles-down icon-arrow" onclick="location.href='#Experience'"></i>
+        </div>
+        
+        
+        
+    </div>
+    </section>
+    
+    
+    
+    <section id="Experience">
+        <p class="section_text_p1">Explore My Experience</p>
+        <h1 class="title">Experience</h1>
+        <div class="Experience-details-container">
+            <div class="about-container">
+                <div class="E-details-container">
+                    <h2 class="Experience-subtitle">Frontend developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-circle-check fa-2x"></i>
+                            <h3>HTML</h3>
+                            <p>Moderate</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check fa-2x"></i>
+                            <h3>CSS</h3>
+                            <p>Moderate</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check fa-2x"></i>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check fa-2x"></i>
+                            <h3>HTML</h3>
+                            <p>Moderate</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-circle-check fa-2x"></i>
+                            <h3>Git</h3>
+                            <p>Basic</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <i class="fa-solid fa-angles-up icon-arrow-up" onclick="location.href='#About'"></i>
+            <i class="fa-solid fa-angles-down icon-arrow" onclick="location.href='#Projects'"></i>
+    
+        </div>
+
+        
+    </section>
+    <section id="Projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        
+        <!-- <div class="E-details-container color-container"> -->
+            <div class="about-container">
+            <div class="details-container">
+                <div class="article-container">
+                    
+                    <img class="project-image" src="assests/indiamap.png" alt="project1">
+                    <div>
+                        <h2 class="project-title Experience-subtitle">Project One</h2>
+                        <div class="btn_container">
+                            <button class="btn btn_color-2 project-btn" onclick="location.href=''">Github</button>
+                            <button class="btn btn_color-1 project-btn" onclick="location.href=
+                            'https://rohit11d.github.io/my_weather_app/'">Live Demo</button>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+                <div class="details-container">
+                <div class="article-container">
+                    
+                    <img class="project-image" src="assests/indiamap.png" alt="project1">
+                    <div>
+                        <h2 class="project-title Experience-subtitle">Project One</h2>
+                        <div class="btn_container">
+                            <button class="btn btn_color-2 project-btn" onclick="location.href=''">Github</button>
+                            <button class="btn btn_color-1 project-btn" onclick="location.href=
+                            'https://rohit11d.github.io/my_weather_app/'">Live Demo</button>
+                        </div>
+                   
+                    </div>
+                </div>
+                 
+        <!-- </div> -->
+            </div>
+            <div class="details-container">
+                <div class="article-container">
+                    
+                    <img class="project-image" src="assests/indiamap.png" alt="project1">
+                    <div>
+                        <h2 class="project-title Experience-subtitle">Project One</h2>
+                        <div class="btn_container">
+                            <button class="btn btn_color-2 project-btn" onclick="location.href=''">Github</button>
+                            <button class="btn btn_color-1 project-btn" onclick="location.href=
+                            'https://rohit11d.github.io/my_weather_app/'">Live Demo</button>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+
+        </div>
+   
+        <div>
+            <i class="fa-solid fa-angles-up icon-arrow-up" onclick="location.href='#Experience'"></i>
+            <i class="fa-solid fa-angles-down icon-arrow" onclick="location.href='#Contact'"></i>
+    
+        </div>
+
+    </section>
+
+    <section id="Contact">
+        
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope fa-2x icon contact-icon"></i>
+                <p><a href="mailto:rohitkumar115dangi@gmail.com">rohitkumar115dangi@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin fa-2x fa-border-radius icon contact-icon "></i>
+                
+                <p><a href="https://www.linkedin.com/in/rohit-dangi-138677241">Linkedin Profile</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-github fa-2x icon contact-icon" ></i>
+                
+                <p><a href="https://github.com/Rohit11D/">Github Profile</a></p>
+            </div>
+
+
+        </div>
+        <div>
+            <i class="fa-solid fa-angles-up icon-arrow-up" onclick="location.href='#Projects'"></i>
+            <i class="fa-solid fa-angles-down icon-arrow" onclick="location.href='#'"></i>
+    
+        </div>
+
+    </section>
+    
+<!-- </div> -->
+
+
+<footer>
+    <nav>
+    <div >
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+    </div>
+</nav>
+<p>Copyright &#169; 2023 Rohit Dangi</p>
+</footer>
+
+
+    <script src="https://kit.fontawesome.com/ace81cbe3a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
