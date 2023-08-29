@@ -52,7 +52,7 @@
         margin-top: 2rem;
     }
 
-    #profile,
+    
     .section-container,
     .about-container {
         display: block;
@@ -60,6 +60,8 @@
 
     #profile .section_pic-container {
         margin-top: 0;
+        /* display: block; */
+       
     }
 
     .arrow {
@@ -75,10 +77,10 @@
         margin: 2rem auto 2rem auto;
     }
 
-    .section_pic-container {
+    .section_pic-container ,.myImage{
         width: 275px;
         height: 275px;
-
+        margin:0 auto;
     }
 /* about */
     #About {
@@ -114,6 +116,7 @@
 
     .contact-info-container {
         display: block;
+        text-align: center;
     }
 /* footer */
     footer {
@@ -132,4 +135,13 @@
         padding: 0.7rem 0;
     }
 
+}
+
+
+@media screen and (max-width:1285px) {
+/* .pr{ */
+    /* width: 80%; */
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+/* } */
 }

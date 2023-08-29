@@ -256,17 +256,6 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* About section */
 #About {
 
@@ -282,7 +271,7 @@ section {
 
 .details-container {
     justify-content: center;
-
+    width: auto;
 }
 
 .about_pic {
@@ -373,13 +362,13 @@ article {
     right: -5rem;
 }
 
-.top-arrow {
-    position: fixed;
-    display: none;
-    right: 30px;
-    bottom: 20px;
-
-}
+/* .top-arrow { */
+    /* position: fixed; */
+    /* display: none; */
+    /* right: 30px; */
+    /* bottom: 20px; */
+/*  */
+/* } */
 
 /* Project Secction */
 #Projects {
